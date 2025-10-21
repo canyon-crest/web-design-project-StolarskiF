@@ -1,5 +1,5 @@
 body{
-    background-color: #057377;
+    background-color: #2f75ca;
     color:#fff;
     font-family: "arial";
     padding: 30px;
@@ -27,4 +27,36 @@ p{
 img{
     width: 250px;
     float: left;
+    margin-right: 10px ;
+    border: 5px solid rgb(185, 244, 249);
+}
+#pic2{
+    width: 250px;
+    float: right;
+    margin-left: 10px ;
+    border: 5px solid rgb(185, 244, 249);
+}
+.highlight{
+    background: yellow;
+    font-weight: bold;
+    color: black;
+    padding: 4px;
+    border-radius: 3px;
+}
+a:link{
+    font-weight: bold;
+    color: rgb(26, 26, 108);
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(12, 12, 55);
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:rgb(1, 1, 6);
+}
+.highlight:active{
+    background:rgb(40, 131, 180);
 }
