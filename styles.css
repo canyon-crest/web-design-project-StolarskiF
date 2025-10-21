@@ -13,6 +13,17 @@ body{
     border-left: 5px solid white;
     border-right: 5px solid white;
 }
+#sidebar{
+    background: gray;
+    padding: 20px;
+    border: 3px solid white;
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin: top 30px;
+
+}
 h1{
     font-family: "courier";
     background: rgba(14, 14, 197, 0.584);
@@ -28,7 +39,10 @@ h2{
     text-align: center;
 }
 h3{
-    width: 100px
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
 }
 p{
     line-height: 2em;
