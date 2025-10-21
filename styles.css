@@ -1,6 +1,25 @@
 body{
     background-color: #057377;
-    color:#fff
+    color:#fff;
+    font-family: "arial";
+    padding: 30px;
+}
+h1{
+    font-family: "courier";
+    background: rgba(14, 14, 197, 0.584);
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 2.5em;
+    border: 6px solid rgb(0, 166, 255);
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    width: 100px
 }
 p{
     line-height: 2em;
